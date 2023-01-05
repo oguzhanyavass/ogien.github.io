@@ -47,6 +47,15 @@
     border-radius: 5%;
     object-fit: cover;
     }
+    #haber-yazilari{
+    color: blueviolet;
+    font-family: sans-serif; /* sans-serif fontu kullanılacak */
+    font-size: 30px; /* başlık 36 pixel boyutunda olacak */
+    text-transform: uppercase; /* başlık büyük harflerle yazılacak */
+    font-weight: bold; /* başlık kalın olacak */
+    text-decoration: underline; /* başlık altı çizgili olacak */
+    background-color: yellow;
+    }
          /* Resimlerin üzerine mouse ile geldiğinizde hareketlenme oluşturun */
          img:hover {
     transform: scale(1.2);
@@ -91,14 +100,17 @@
       <!-- Fotoğraf 1 -->
       <div class="carousel-item active">
         <img id="haber-1"src="img/haber-1.jpg" alt="Fotoğraf 1" class="d-block w-100">
+        <a id="haber-yazilari"class="text-yellow" href="#">E-kredi Kartı Güvenlik Açığı Doğurabilir</a> 
       </div>
       <!-- Fotoğraf 2 -->
       <div class="carousel-item">
         <img id="haber-2"src="img/haber-2.jpg" alt="Fotoğraf 2" class="d-block w-100">
+        <a id="haber-yazilari"class="text-yellow" href="#">TOGG Satışa Sunuldu</a> 
       </div>
       <!-- Fotoğraf 3 -->
       <div class="carousel-item">
         <img id="haber-3"src="img/haber-3.jpg" alt="Fotoğraf 3" class="d-block w-100">
+        <a id="haber-yazilari" class="text-yellow" href="#">Avatar: Suyun Yolu Sinemalarda</a> 
       </div>
     </div>
     <!-- Ok butonları -->
